@@ -16,10 +16,10 @@ begin
 
     writeln('a=', a:0:2, ' b=', b:0:2, ' c=', c:0:2);
     (*
-    writeln('ax^2+bx+c=0 d=b^2-4ac  else if');
-    writeln('if d>0 then xReal1 xReal2');
-    writeln('else if d=0 then x=(-b)/2a');
-    writeln('x1,2=(-b(+-)sqrt(d))/2a');
+    ax^2+bx+c=0 d=b^2-4ac  else if
+    if d>0 then xReal1 xReal2
+    else if d=0 then x=(-b)/2a
+    x1,2=(-b(+-)sqrt(d))/2a
     *)
 
     writeln('Решение:');
@@ -47,8 +47,6 @@ begin
                     writeln('x1=', x1:0:2, ' x2=', x2:0:2);
                 end
             else
-                begin
                     writeln('Уравнение решений не имеет');
-                end;
-        
+
 end.
